@@ -5,7 +5,7 @@ damage = 5
 print("{0} 유닛이 생성되었습니다.".format(name))
 hp = 40
 damage = 5
-location = 1
+location = 1dddd
 
 def attack (name,location,damage) :
     print("{0}:{1} 방향으로 적군을 공격 : damage = {2}".format(name,location,damage))
