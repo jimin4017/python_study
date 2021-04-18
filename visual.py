@@ -41,7 +41,12 @@ class AttackUnit :
 
     def damaged(self,damage) :
         print("{0} : {1} 데미지를 입었습니다.".format(self.name,damage))
+    def damaged(self,damage) :
+        print("{0} : {1} 데미지를 입었습니다.".format(self.name,damage))
+     def damaged(self,damage) :
+        print("{0} : {1} 데미지를 입었습니다.".format(self.name,damage))
 
+ 
 
 
 firebat1 = AttackUnit("파이어뱃",50,16)
